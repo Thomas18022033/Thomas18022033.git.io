@@ -1,0 +1,59 @@
+body{
+    background-color: #ffe4c4;
+}
+.logo{
+    display: flex;
+    height: 75px;
+    margin: 10px;
+}
+.container-fluid{
+    background-color: #b97725b9;
+}
+main{
+    padding: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.foto-thomas{
+    display: flex;
+    height: 300px;
+    animation-name: entrada-superior;
+    animation-duration: 2s;
+}
+@keyframes entrada-superior{
+    0%{
+        transform: translateY(-400px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+h2{
+    text-align: center;
+}
+.imagenes{
+    display: flex;
+}
+.imagenes-proyectos{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    padding: 50px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.imagenes-proyectos:hover{
+    transform: scale(2);
+}
+.experiencia-laboral{
+    text-align: center;
+    justify-content: space-around;
+    padding: 75px;
+}
+.experiencia-laboral .marcas a{
+    text-decoration: none;
+    color: #000000;
+}
