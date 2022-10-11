@@ -155,4 +155,16 @@ nav ul{
         height: 350px ;
         padding: 50px;
     }
+    .cv{
+        width: 100%;
+    }
+    .titulo-proyectos{
+        text-align: center;
+    }
+    .otros-proyectos{
+        width: 100%;
+    }
+    .otros-proyectos-2{
+        width: 100%;
+    }
 }
