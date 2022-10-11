@@ -6,9 +6,10 @@ body{
     height: 75px;
     margin: 10px;
 }
-.container-fluid{
-    background-color: #b97725b9;
+.navbar{
+    background-color: #876f52 !important;
 }
+
 main{
     padding: 75px;
     display: flex;
@@ -56,4 +57,52 @@ h2{
 .experiencia-laboral .marcas a{
     text-decoration: none;
     color: #000000;
+}
+.logo-contacto{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+button{
+    text-align: center;
+    display: flex;
+    margin-left: 622px;
+}
+.home ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul{
+    list-style-type: none;
+}
+.logo-contacto{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+.foto-sobremi{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+}
+.ig-sobremi{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.p-sobremi{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;   
+}
+.titulo-sobremi{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
