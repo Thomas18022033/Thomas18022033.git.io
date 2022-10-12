@@ -149,7 +149,7 @@ nav ul{
     width: 100%;
     padding: 45px 20px;
 }
-@media screen and (min-width:768px){
+@media screen and (max-width:768px){
     .imagenes-proyectos{
         width: 100%;
         height: 350px ;
@@ -166,5 +166,30 @@ nav ul{
     }
     .otros-proyectos-2{
         width: 100%;
+    }
+}
+@media screen and (max-width:576px){
+    .imagenes-proyectos{
+        width: 100%;
+        height: 300px ;
+        padding: 50px;
+    }
+    .cv{
+        width: 100%;
+    }
+    .titulo-proyectos{
+        text-align: center;
+    }
+    .otros-proyectos{
+        width: 100%;
+        height:350px ;
+    }
+    .otros-proyectos-2{
+        width: 100%;
+        height: 450px;
+    }
+    .marcas-grid{
+        display: flex;
+        flex-direction: column;
     }
 }
